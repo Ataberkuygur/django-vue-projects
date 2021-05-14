@@ -1,0 +1,78 @@
+Analiz 
+
+Projeyi kur DONE
+Template ve componentleri ayarla DONE
+Bağlantı kur DONE
+
+User modeli serializer oluştur DONE
+User için create api viewset oluştur DONE
+
+- Sinyal oluştur - Token - User DONE
+
+Alışkanlık modeli oluştur
+- title
+- description
+- category
+- success_rate
+- daily_goal
+- user
+- first_date
+- last_date
+- slug
+
+Serializer oluştur
+Viewset
+Permissionlar
+Urller
+
+Kategori modeli oluştur
+- title
+- tipi
+- created_date
+- updated_date
+- slug
+
+Serializer oluştur
+Viewset
+Permissionlar
+Urller
+
+Gün modeli oluştur
+- gün sayısı
+- alışkanlık
+- Kategori
+- miktar
+- slug
+
+Serializer oluştur
+Viewset
+Permissionlar
+Urller
+
+Navbar
+    Navbar.vue
+
+Auth
+    Dosya Düzeni: Auth/
+                    LoginForm.vue
+                    RegisterForm.vue
+
+    Login Sayfası
+        Login Form App
+
+    Register Sayfası
+        Register Form App
+
+Home
+    Dosya Düzeni: Home/
+                    Header.vue
+
+    Home Sayfası
+        Header
+
+Habits
+    Dosya Düzeni: Habits/
+                    HabitList.vue
+                    SingleHabit.vue
+                    HabitGraphics.vue
+                    HabitTable.vue    
